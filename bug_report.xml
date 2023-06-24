@@ -1,1 +1,25 @@
-
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <id>DEFECT-01</id>
+  <Summary>При нажатии кнопки Оформить заказ происходит редирект на главную страницу сайта</Summary>
+  <Project>WWW</Project>
+  <Version>3.0</Version>
+  <Severity>High</Severity>
+  <Priority>ASAP</Priority>
+  <Status>Open</Status>
+  <Author>Vladimir_T</Author>
+  <Description>
+    <Precondition>
+      <1>Авторизоваться на сайте</1>
+    </Precondition>
+    <Environment>Windows 10 Pro 22H2 Google Chrome v: 114.0.5735.134 (x86_64)</Environment>
+    <Steps_to_reproduce>
+      <1>Добавить товар в корзину</1>
+      <2>Перейти в корзину</2>
+      <3>Нажать на кнопку Оформить заказ</3>
+    </Steps_to_reproduce>
+    <Actual_result>Происходит редирект на главуню страницу магазина</Actual_result>
+    <Expected_result>Пользователь переходит на страницу оплаты заказа</Expected_result>
+  </Description>
+  <Assigned_To>Petrov_I</Assigned_To>
+</root>
