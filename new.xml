@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dataset>
+    <record><name>Vladimir T</name><age>30</age><numberOfPets>1</numberOfPets><desiredSalary>1000000</desiredSalary></record>
+</dataset>
